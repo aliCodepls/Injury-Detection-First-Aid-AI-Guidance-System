@@ -1,0 +1,4 @@
+FirstSight AI uses computer vision and CNN-based image classification to detect injuries such as surface wounds and burns. The system provides step-by-step first-aid guidance through a rule-based expert system and recommends contacting emergency services when needed, improving response time during emergencies.	
+DATASETS:
+https://universe.roboflow.com/classifier-xbn6b/injuryds/dataset/1
+https://www.kaggle.com/datasets/yasinpratomo/wound-dataset
