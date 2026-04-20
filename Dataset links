@@ -2,4 +2,4 @@ FirstSight AI uses computer vision and CNN-based image classification to detect 
 DATASETS:
 https://universe.roboflow.com/classifier-xbn6b/injuryds/dataset/1
 https://www.kaggle.com/datasets/yasinpratomo/wound-dataset
-Burns : https://www.kaggle.com/datasets/shubhambaid/skin-burn-dataset?select=img1002.txt , 
+Burns : https://www.kaggle.com/datasets/shubhambaid/skin-burn-dataset?select=img1002.txt , https://universe.roboflow.com/atiya/skin-burn-wound-classification-gijts
