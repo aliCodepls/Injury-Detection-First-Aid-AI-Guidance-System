@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "FirstSight AI",
+    "slug": "firstsight-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "firstsight",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F6F0E0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F6F0E0"
+      },
+      "package": "com.firstsightai.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.firstsightai.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FirstSight AI needs camera access to analyze wounds.",
+        "NSPhotoLibraryUsageDescription": "FirstSight AI needs photo access to analyze wound images."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow FirstSight AI to access your photos for wound analysis."
+        }
+      ]
+    ]
+  }
+}
