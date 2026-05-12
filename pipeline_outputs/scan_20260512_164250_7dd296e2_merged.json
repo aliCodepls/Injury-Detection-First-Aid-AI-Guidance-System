@@ -1,0 +1,30 @@
+{
+  "primary_source": "woundwatch_vision",
+  "injury_type": "Bruise",
+  "severity": 5,
+  "bleeding": false,
+  "swelling": true,
+  "emergency_needed": false,
+  "first_aid_steps": [
+    "Apply cold pack or ice wrapped in a cloth to the area.",
+    "Do not apply direct heat.",
+    "Gently massage the area to reduce immediate swelling.",
+    "Elevate the affected limb above heart level if possible.",
+    "Apply gentle, firm pressure if pain persists.",
+    "Monitor the area for signs of rapid worsening.",
+    "If pain becomes severe or symptoms change, seek medical attention."
+  ],
+  "clinical_notes": "The image displays significant discoloration and inflammation consistent with a bruise on the forearm. There is no active bleeding observed. Severity is moderate as no signs of acute vascular compromise or severe trauma are evident.",
+  "best_model_cnn": {
+    "injury_type": "Bruises",
+    "confidence": 0.958371639251709,
+    "class_probabilities": {
+      "Burns": 0.017894547432661057,
+      "Cuts_lacerations": 0.00593950692564249,
+      "Abrasions": 0.009279454126954079,
+      "Insect_bites": 0.008514788933098316,
+      "Bruises": 0.958371639251709
+    }
+  },
+  "models_agree_on_category": true
+}

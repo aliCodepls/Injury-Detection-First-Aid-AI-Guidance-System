@@ -1,0 +1,37 @@
+{
+  "normalized": {
+    "injury_type": "Bruise",
+    "severity": 5,
+    "has_bleeding": false,
+    "has_swelling": true,
+    "emergency_needed": false,
+    "first_aid_steps": [
+      "Apply cold pack or ice wrapped in a cloth to the area.",
+      "Do not apply direct heat.",
+      "Gently massage the area to reduce immediate swelling.",
+      "Elevate the affected limb above heart level if possible.",
+      "Apply gentle, firm pressure if pain persists.",
+      "Monitor the area for signs of rapid worsening.",
+      "If pain becomes severe or symptoms change, seek medical attention."
+    ],
+    "clinical_notes": "The image displays significant discoloration and inflammation consistent with a bruise on the forearm. There is no active bleeding observed. Severity is moderate as no signs of acute vascular compromise or severe trauma are evident."
+  },
+  "raw": {
+    "injury_type": "Bruise",
+    "severity": 5,
+    "has_bleeding": false,
+    "has_swelling": true,
+    "emergency_needed": false,
+    "first_aid_steps": [
+      "Apply cold pack or ice wrapped in a cloth to the area.",
+      "Do not apply direct heat.",
+      "Gently massage the area to reduce immediate swelling.",
+      "Elevate the affected limb above heart level if possible.",
+      "Apply gentle, firm pressure if pain persists.",
+      "Monitor the area for signs of rapid worsening.",
+      "If pain becomes severe or symptoms change, seek medical attention."
+    ],
+    "clinical_notes": "The image displays significant discoloration and inflammation consistent with a bruise on the forearm. There is no active bleeding observed. Severity is moderate as no signs of acute vascular compromise or severe trauma are evident."
+  },
+  "raw_model_content": "{\n  \"injury_type\": \"Bruise\",\n  \"severity\": 5,\n  \"has_bleeding\": false,\n  \"has_swelling\": true,\n  \"emergency_needed\": false,\n  \"first_aid_steps\": [\n    \"Apply cold pack or ice wrapped in a cloth to the area.\",\n    \"Do not apply direct heat.\",\n    \"Gently massage the area to reduce immediate swelling.\",\n    \"Elevate the affected limb above heart level if possible.\",\n    \"Apply gentle, firm pressure if pain persists.\",\n    \"Monitor the area for signs of rapid worsening.\",\n    \"If pain becomes severe or symptoms change, seek medical attention.\"\n  ],\n  \"clinical_notes\": \"The image displays significant discoloration and inflammation consistent with a bruise on the forearm. There is no active bleeding observed. Severity is moderate as no signs of acute vascular compromise or severe trauma are evident.\"\n}"
+}

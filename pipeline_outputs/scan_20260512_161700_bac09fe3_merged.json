@@ -1,0 +1,28 @@
+{
+  "primary_source": "best_model_cnn_only",
+  "injury_type": "Burns",
+  "severity": 8,
+  "bleeding": false,
+  "swelling": false,
+  "emergency_needed": true,
+  "first_aid_steps": [
+    "Keep the area clean and dry; avoid rubbing.",
+    "If bleeding, apply gentle pressure with sterile gauze.",
+    "Monitor for signs of infection (increasing pain, pus, fever).",
+    "Use cool running water for minor thermal burns (not ice).",
+    "Seek professional care if symptoms worsen or emergency flags apply."
+  ],
+  "clinical_notes": "Vision model disabled; severity and first aid are heuristic placeholders from CNN confidence only.",
+  "best_model_cnn": {
+    "injury_type": "Burns",
+    "confidence": 0.2482159584760666,
+    "class_probabilities": {
+      "Burns": 0.2482159584760666,
+      "Cuts_lacerations": 0.23778893053531647,
+      "Abrasions": 0.19256258010864258,
+      "Insect_bites": 0.16699208319187164,
+      "Bruises": 0.15444043278694153
+    }
+  },
+  "models_agree_on_category": null
+}

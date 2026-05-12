@@ -1,0 +1,11 @@
+{
+  "injury_type": "Bruises",
+  "confidence": 0.958371639251709,
+  "class_probabilities": {
+    "Burns": 0.017894547432661057,
+    "Cuts_lacerations": 0.00593950692564249,
+    "Abrasions": 0.009279454126954079,
+    "Insect_bites": 0.008514788933098316,
+    "Bruises": 0.958371639251709
+  }
+}
